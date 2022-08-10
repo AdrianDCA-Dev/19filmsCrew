@@ -5,7 +5,7 @@
             <div class="flex">
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
-                    <a href="{{ route('dashboard') }}">
+                    <a href="{{ url('blog') }}">
                         <x-application-logo class="block h-10 w-auto fill-current text-gray-600" />
                     </a>
                 </div>
@@ -15,16 +15,16 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('panel.category.index')" :active="request()->routeIs('panel.category.*')">
-                        {{ __('Categorias') }}
-                    </x-nav-link>
-                    <x-nav-link :href="route('panel.tag.index')" :active="request()->routeIs('panel.tag.*')">
-                        {{ __('Etiquetas') }}
-                    </x-nav-link>
                     <x-nav-link :href="route('panel.post.index')" :active="request()->routeIs('panel.post.*')">
                         {{ __('Posts') }}
                     </x-nav-link>
                     @if (auth()->user()->rol == 1)
+                        <x-nav-link :href="route('panel.category.index')" :active="request()->routeIs('panel.category.*')">
+                            {{ __('Categorias') }}
+                        </x-nav-link>
+                        <x-nav-link :href="route('panel.tag.index')" :active="request()->routeIs('panel.tag.*')">
+                            {{ __('Etiquetas') }}
+                        </x-nav-link>
                         <x-nav-link :href="route('panel.user.index')" :active="request()->routeIs('panel.user.*')">
                             {{ __('Usuarios') }}
                         </x-nav-link>

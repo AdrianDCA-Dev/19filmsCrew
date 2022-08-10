@@ -94,7 +94,7 @@
 
                     <div class="my-5 w-80">
                         <x-label :value="__('Imagen Actual')" />
-                        <img src="{{ asset('storage/' . $image) }}" alt="{{ 'Imagen portada post ' . $title }}">
+                        <img src="{{ Storage::url($image) }}" alt="{{ 'Imagen portada post ' . $title }}">
                     </div>
 
                     <div class="items-center my-5 w-80">
