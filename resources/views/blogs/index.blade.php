@@ -137,7 +137,7 @@
                                             </div>
                                             <p class="mb-2">{!! $post->body !!}</p>
                                             <div class="post-meta d-flex">
-                                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 32</a>
+                                            {{--    <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 32</a>--}}
                                                 <a href="#">@livewire('blogs.like', ['post' => $post])</a>
                                             </div>
                                         </div>
@@ -157,12 +157,12 @@
 
                         <!-- ***** Single Widget ***** -->
                         <div class="single-widget followers-widget mb-50">
-                            <a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span class="counter">198</span><span>Fan</span></a>
-                            <a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span class="counter">220</span><span>Seguidores</span></a>
-                            <a href="#" class="google"><i class="fa fa-google" aria-hidden="true"></i><span class="counter">140</span><span>Suscribir</span></a>
+                            <a href="https://www.facebook.com/19filmsbolivia" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span class="counter">198</span><span>Fan</span></a>
+                            <a href="https://www.instagram.com/19filmscrew/" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i><span class="counter">220</span><span>Seguidores</span></a>
+                            <a href="https://www.youtube.com/channel/UCl4DvocRICG9bP6OqFgQ_SQ" class="google"><i class="fa fa-youtube-play" aria-hidden="true"></i><span class="counter">140</span><span>Suscribir</span></a>
                         </div>
 
-                        <!-- ***** Single Widget ***** -->
+                      {{--  <!-- ***** Single Widget ***** -->
                         <div class="single-widget latest-video-widget mb-50">
                             <!-- Section Heading -->
                             <div class="section-heading style-2 mb-30">
@@ -384,7 +384,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div>--}}
 
                     </div>
                 </div>
@@ -392,122 +392,6 @@
         </div>
     </section>
 
-    <footer class="footer-area">
-        <div class="container">
-            <div class="row">
-                <!-- Footer Widget Area -->
-                <div class="col-12 col-sm-6 col-xl-3">
-                    <div class="footer-widget mb-70">
-                        <!-- Logo -->
-                        <a href="index.html" class="foo-logo d-block mb-4"><img src="img/core-img/logo2.png" alt=""></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
-                        <!-- Footer Newsletter Area -->
-                        <div class="footer-nl-area">
-                            <form action="#" method="post">
-                                <input type="email" name="nl-email" class="form-control" id="nlEmail" placeholder="Your email">
-                                <button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Footer Widget Area -->
-                <div class="col-12 col-sm-6 col-xl-3">
-                    <div class="footer-widget mb-70">
-                        <h6 class="widget-title">Latest Twister</h6>
-                        <!-- Twitter Slides -->
-                        <div class="twitter-slides owl-carousel">
-
-                            <!-- Single Twitter Slide -->
-                            <div class="single--twitter-slide">
-                                <!-- Single Twit -->
-                                <div class="single-twit">
-                                    <p><i class="fa fa-twitter"></i> <span>@Leonard</span> I am so happy because I found this magazine, and it just made Vizeweasier. Thanks for sharing</p>
-                                </div>
-                                <!-- Single Twit -->
-                                <div class="single-twit">
-                                    <p><i class="fa fa-twitter"></i> <span>@Leonard</span> I am so happy because I found this magazine, and it just made Vizeweasier. Thanks for sharing</p>
-                                </div>
-                            </div>
-
-                            <!-- Single Twitter Slide -->
-                            <div class="single--twitter-slide">
-                                <!-- Single Twit -->
-                                <div class="single-twit">
-                                    <p><i class="fa fa-twitter"></i> <span>@Colorlib</span> I am so happy because I found this magazine, and it just made Vizeweasier. Thanks for sharing</p>
-                                </div>
-                                <!-- Single Twit -->
-                                <div class="single-twit">
-                                    <p><i class="fa fa-twitter"></i> <span>@Colorlib</span> I am so happy because I found this magazine, and it just made Vizeweasier. Thanks for sharing</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Footer Widget Area -->
-                <div class="col-12 col-sm-6 col-xl-3">
-                    <div class="footer-widget mb-70">
-                        <h6 class="widget-title">Mas Videos</h6>
-
-                        <!-- Single Blog Post -->
-                        <div class="single-blog-post d-flex">
-                            <div class="post-thumbnail">
-                                <img src="img/bg-img/1.jpg" alt="">
-                            </div>
-                            <div class="post-content">
-                                <a href="single-post.html" class="post-title">DC Shoes: gymkhana the</a>
-                                <div class="post-meta d-flex justify-content-between">
-                                    <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
-                                    <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 34</a>
-                                    <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 84</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Blog Post -->
-                        <div class="single-blog-post d-flex">
-                            <div class="post-thumbnail">
-                                <img src="img/bg-img/2.jpg" alt="">
-                            </div>
-                            <div class="post-content">
-                                <a href="single-post.html" class="post-title">Sweet Yummy Chocolatea Tea</a>
-                                <div class="post-meta d-flex justify-content-between">
-                                    <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
-                                    <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 34</a>
-                                    <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 84</a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- Footer Widget Area -->
-                <div class="col-12 col-sm-6 col-xl-3">
-                    <div class="footer-widget mb-70">
-                        <h6 class="widget-title">Nuestra dirección</h6>
-                        <!-- Contact Address -->
-                        <div class="contact-address">
-                            <p>Erquis Sud, <br>Tarija-Bolivia</p>
-                            <p>Celular: 63076039</p>
-                            <p>Email: 19films@gmail.com</p>
-                        </div>
-                        <!-- Footer Social Area -->
-                        <div class="footer-social-area">
-                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                            <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-                            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </footer>
 
 
 </x-app-layout>

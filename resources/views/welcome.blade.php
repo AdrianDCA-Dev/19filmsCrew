@@ -76,11 +76,10 @@
         </ul>
         <div class="menu-footer right-boxed">
             <div class="social-list">
-                <a href="#" class="icon ion-social-twitter"></a>
-                <a href="#" class="icon ion-social-facebook"></a>
-                <a href="#" class="icon ion-social-googleplus"></a>
-                <a href="#" class="icon ion-social-linkedin"></a>
-                <a href="#" class="icon ion-social-dribbble-outline"></a>
+                <a href="https://www.facebook.com/19filmsbolivia" class="icon ion-social-facebook"></a>
+                <a href="https://www.youtube.com/channel/UCl4DvocRICG9bP6OqFgQ_SQ" class="icon ion-social-youtube"></a>
+                <a href="https://www.instagram.com/19filmscrew/" class="icon ion-social-instagram"></a>
+                <a href="https://vimeo.com/cristianjuradodf" class="icon ion-social-vimeo"></a>
             </div>
         </div>
     </div>
@@ -129,7 +128,7 @@
     <div class="pagepiling">
         <div data-anchor="page1" class="pp-scrollable text-white section section-1">
             <div class="scroll-wrap">
-                <div class="section-bg" style="background-image:url({{asset('assets/images/bg/main.png')}});"></div>
+                <div class="section-bg" style="background-image:url({{asset('assets/images/bg/inicio.jpg')}});"></div>
                 <div class="scrollable-content">
                     <div class="vertical-centred">
                         <div class="boxed boxed-inner">
@@ -648,14 +647,14 @@
                                                 <div class="experience-box pb-1">
                                                     <div class="experience-content">
                                                         <div class="experience-number text-texture">8</div><br class="d-block d-sm-none">
-                                                        <div class="experience-info"><h2>Años<br>Experiencia<br>Laboral </h2> </div>
+                                                        <div class="experience-info"><h2>Años<br>Creando<br>Historias </h2> </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-xl-5">
-                                                <h2 class="title-uppercase"> <span class="text-primary">QUIENES SOMOS</span> </h2>
+                                                <h2 class="title-uppercase" style="font-family: 'Poppins', sans-serif"> <span class="text-primary">QUIENES SOMOS</span> </h2>
 
-                                                <p style="color: white; text-align: justify">
+                                                <p style="color: white; text-align: justify;font-family: 'Poppins', sans-serif">
                                                     Somos una productora audiovisual joven
                                                     Nacemos de la unión de personas creativas con el deseo de contar historias a través de imagenes y videos que dejen una marca emocional en el espaectador.
                                                     Nuestro equipo está conformado por artistas en sonido, imagen, diseño, video, programación y marketing que trabajan con pasión para lograr un objetivo en común.
@@ -667,14 +666,14 @@
                                                         <div class="number float-right">100%</div>
                                                     </div>
                                                     <div class="progress">
-                                                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        <div class="progress-bar" role="progressbar" style="width: 100%;font-family: 'Poppins', sans-serif" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                                                     </div>
                                                     <div class="clearfix" style="color: white; text-align: justify">
                                                         <div class="number float-left">Originalidad </div>
                                                         <div class="number float-right">100%</div>
                                                     </div>
                                                     <div class="progress">
-                                                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        <div class="progress-bar" role="progressbar" style="width: 100%;font-family: 'Poppins', sans-serif" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -708,10 +707,10 @@
                                                     <div class="resume-content">
                                                         <div class="resume-inner">
                                                             <div class="resume-row">
-                                                                <h6 class="resume-type">QUE HACEMOS</h6>
+                                                                <h6 class="resume-type" style="font-family: 'Poppins', sans-serif">QUE HACEMOS</h6>
                                                                 <!--                <p class="resume-study">University of studies, Poland, Cracow</p>
                                                                                 <p class="resume-date text-primary">Jan 2004 - Dec 2006</p>-->
-                                                                <p class="resume-text">
+                                                                <p class="resume-text" style="font-family: 'Poppins', sans-serif">
                                                                     Escuchamos la historia que nuestros clientes quieren contar y la potenciamos con estrategias para llegar a la memoria de sus clientes a través de emociones.
                                                                     Capturamos momentos en foto y video en calidad Ultra HD 4k a 60 fps con el objetivo de capturar hasta el más mínimo detalle para luego destacar lo que nuestros clientes requieran.
                                                                     Acusticamente grabamos, editamos y empleamos efectos de sonido según el proyecto lo requiera.
@@ -729,20 +728,20 @@
                                                     <div class="resume-content">
                                                         <div class="resume-inner">
                                                             <div class="resume-row">
-                                                                <h6 class="resume-type">QUE OFRECEMOS</h6>
+                                                                <h6 class="resume-type" style="font-family: 'Poppins', sans-serif">QUE OFRECEMOS</h6>
                                                                 <!--    <p class="resume-study">University of studies, Poland, Cracow</p>
                                                                     <p class="resume-date text-primary">Jan 2004 - Dec 2006</p>-->
-                                                                <p class="resume-text">
+                                                                <p class="resume-text" style="font-family: 'Poppins', sans-serif">
                                                                     Tenemos un equipo de profesionales responsables de cada área, quienes se anticipan a las necesidades de cada cliente ofrenciendo originalidad y singularidad en cada proyecto.
                                                                     Ofrecemos un equipo de cámaras profesionales cinematográficas, sonido nítido... personal profesional, asesorías... alianzas con profesionales
                                                                     Distribución de contenidos a traves de nuestra plataforma.
                                                                 </p>
                                                             </div>
                                                             <div class="resume-row">
-                                                                <h6 class="resume-type">QUE NOS DIFERENCIA</h6>
+                                                                <h6 class="resume-type" style="font-family: 'Poppins', sans-serif">QUE NOS DIFERENCIA</h6>
                                                                 <!--    <p class="resume-study">University of studies, Poland, Cracow</p>
                                                                     <p class="resume-date text-primary">Jan 2004 - Dec 2006</p>-->
-                                                                <p class="resume-text">
+                                                                <p class="resume-text" style="font-family: 'Poppins', sans-serif">
                                                                     La diferencia indiscutible está en la creatividad de cada artista que se enfoca en hacer de cada proyecto una obra de arte. Y la exclusividad del contenido creado para nuestros clientes.
                                                                 </p>
                                                             </div>
@@ -759,7 +758,7 @@
                 </div>
             </div>
         </div>
-        <div data-anchor="page4" class="pp-scrollable section section-4">
+       {{-- <div data-anchor="page4" class="pp-scrollable section section-4">
             <div class="scroll-wrap">
                 <!-- <div class="section-bg" style="background-image:url(images/bg/textura.png);"></div>-->
                 <div class="scrollable-content">
@@ -815,7 +814,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>--}}
         <div data-anchor="page5" class="pp-scrollable text-white section section-5">
             <div class="scroll-wrap">
                 <!-- <div class="bg-changer">

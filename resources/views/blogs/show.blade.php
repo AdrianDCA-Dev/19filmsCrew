@@ -85,9 +85,9 @@
                         <!-- ***** Single Widget ***** -->
                         <div class="single-widget share-post-widget mb-50">
                             <p>Share This Post</p>
-                            <a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
-                            <a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
-                            <a href="#" class="google"><i class="fa fa-google" aria-hidden="true"></i> Google+</a>
+                            <a href="https://www.facebook.com/19filmsbolivia" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+                            <a href="https://www.instagram.com/19filmscrew/" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
+                            <a href="https://www.youtube.com/channel/UCl4DvocRICG9bP6OqFgQ_SQ" class="google"><i class="fa fa-google" aria-hidden="true"></i> Youtube</a>
                         </div>
 
                         <div class="single-widget latest-video-widget mb-50">

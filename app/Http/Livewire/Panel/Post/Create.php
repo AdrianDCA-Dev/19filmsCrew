@@ -35,7 +35,7 @@ class Create extends Component
         if ($this->status == 'published') {
             $rules = array_merge($rules, [
                 'body' => 'required',
-                'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:9196',
+                'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
                 'content' => 'required',
                 'category_id' => 'required',
                 'tags_id' => 'required',

@@ -1516,6 +1516,8 @@ input:focus {
       background-color: #55acee; }
     .followers-widget a.google {
       background-color: #dd4b39; }
+    .followers-widget a.instagram {
+    background-color: #a67c52; }
     .followers-widget a i,
     .followers-widget a span {
       display: block;

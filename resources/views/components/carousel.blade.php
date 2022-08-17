@@ -26,7 +26,7 @@
 --}}
             <!-- Post Content -->
             <div class="post-content">
-                <a href="#" class="post-title">{{ $post->title }}</a>
+                <a href="{{ route('blog.show', $post->slug) }}" class="post-title">{{ $post->title }}</a>
             </div>
         </div>
 

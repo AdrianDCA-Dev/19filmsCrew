@@ -13,7 +13,7 @@ class BlogController extends Controller
     {
         $posts = Post::where('status', true)->orderBy('id', 'desc')->paginate(6);
 
-        $posts_likes = Post::select('id', 'title', 'image')
+        $posts_likes = Post::select('id', 'title', 'image', 'slug')
             ->withCount('likes')
             ->orderBy('likes_count', 'desc')
             ->limit(5)
