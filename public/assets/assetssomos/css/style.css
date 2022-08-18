@@ -79,7 +79,7 @@
 .gallery-container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-auto-rows: 205px;
+	grid-auto-rows: 250px;
 }
 .gallery__img {
 	width: 100%;
@@ -199,8 +199,7 @@
 
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
-@media only screen and (min-width: 1200px) and (max-width: 5120px) {
-/*@media only screen and (min-width: 1200px ) {*/
+@media only screen and (min-width: 1200px ) {
 	.gallery-container {
 		grid-template-columns: repeat(5, 1fr);
 		width: 100%;

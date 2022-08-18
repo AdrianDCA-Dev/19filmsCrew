@@ -691,13 +691,13 @@
         </div>
         <div data-anchor="page3" class="pp-scrollable text-white section section-3">
             <div class="scroll-wrap">
-                <div class="section-bg" style="background-image:url({{asset('assets/images/bg/resume.png')}});"></div>
+                <div class="section-bg" style="background-image:url({{asset('assets/images/bg/a.jpeg')}});"></div>
                 <div class="scrollable-content">
                     <div class="vertical-centred">
                         <div class="boxed boxed-inner">
                             <div class="vertical-title d-none d-lg-block"><span>Resumen</span></div>
                             <div class="boxed">
-                                <div class="container">
+                                <div class="box1 container">
                                     <div class="intro">
                                         <div class="row row-resume">
                                             <div class="col-md-6">
@@ -706,10 +706,10 @@
                                                     <div class="resume-content">
                                                         <div class="resume-inner">
                                                             <div class="resume-row">
-                                                                <h6 class="resume-type" style="font-family: 'Poppins', sans-serif">QUE HACEMOS</h6>
+                                                                <h6 class="resume-type" style="font-family: 'Poppins', sans-serif; text-align: justify">QUE HACEMOS</h6>
                                                                 <!--                <p class="resume-study">University of studies, Poland, Cracow</p>
                                                                                 <p class="resume-date text-primary">Jan 2004 - Dec 2006</p>-->
-                                                                <p class="resume-text" style="font-family: 'Poppins', sans-serif">
+                                                                <p class="" style="font-family: 'Poppins', sans-serif; text-align: justify">
                                                                     Escuchamos la historia que nuestros clientes quieren contar y la potenciamos con estrategias para llegar a la memoria de sus clientes a través de emociones.
                                                                     Capturamos momentos en foto y video en calidad Ultra HD 4k a 60 fps con el objetivo de capturar hasta el más mínimo detalle para luego destacar lo que nuestros clientes requieran.
                                                                     Acusticamente grabamos, editamos y empleamos efectos de sonido según el proyecto lo requiera.
@@ -730,17 +730,17 @@
                                                                 <h6 class="resume-type" style="font-family: 'Poppins', sans-serif">QUE OFRECEMOS</h6>
                                                                 <!--    <p class="resume-study">University of studies, Poland, Cracow</p>
                                                                     <p class="resume-date text-primary">Jan 2004 - Dec 2006</p>-->
-                                                                <p class="resume-text" style="font-family: 'Poppins', sans-serif">
+                                                                <p class="" style="font-family: 'Poppins', sans-serif; text-align: justify">
                                                                     Tenemos un equipo de profesionales responsables de cada área, quienes se anticipan a las necesidades de cada cliente ofrenciendo originalidad y singularidad en cada proyecto.
                                                                     Ofrecemos un equipo de cámaras profesionales cinematográficas, sonido nítido... personal profesional, asesorías... alianzas con profesionales
                                                                     Distribución de contenidos a traves de nuestra plataforma.
                                                                 </p>
                                                             </div>
                                                             <div class="resume-row">
-                                                                <h6 class="resume-type" style="font-family: 'Poppins', sans-serif">QUE NOS DIFERENCIA</h6>
+                                                                <h6 class="resume-type" style="font-family: 'Poppins', sans-serif; text-align: justify">QUE NOS DIFERENCIA</h6>
                                                                 <!--    <p class="resume-study">University of studies, Poland, Cracow</p>
                                                                     <p class="resume-date text-primary">Jan 2004 - Dec 2006</p>-->
-                                                                <p class="resume-text" style="font-family: 'Poppins', sans-serif">
+                                                                <p class="" style="font-family: 'Poppins', sans-serif">
                                                                     La diferencia indiscutible está en la creatividad de cada artista que se enfoca en hacer de cada proyecto una obra de arte. Y la exclusividad del contenido creado para nuestros clientes.
                                                                 </p>
                                                             </div>
@@ -832,7 +832,7 @@
                                             <h2 class="title-uppercase text-white">PORTAFOLIO</h2>
                                             <div class="work__gallery">
                                                 <div class="grid-sizer"></div>
-                                                <div class="work__item wide__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/work-1.jpg')}}">
+                                                <div class="work__item wide__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/1.jpeg')}}">
 
                                                     <!--<div class="col-md-6 intros text-end">
                                                      <div class="video-box">
@@ -850,51 +850,51 @@
                                                     <a href="https://www.youtube.com/watch?v=RZ96K09l0b4&t=8s" class="play-btn video-popup">
                                                         <i class="fa fa-play"></i>
                                                     </a>
-                                                    <div class="work__item__hover">
+                                                    {{--<div class="work__item__hover">
                                                         <h4>PUBLICIDAD JUAN DIABLO</h4>
                                                         <ul>
                                                             <li>Video</li>
                                                             <li>Posproduccion</li>
                                                         </ul>
-                                                    </div>
+                                                    </div>--}}
                                                 </div>
-                                                <div class="work__item small__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/work-2.jpg')}}">
+                                                <div class="work__item small__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/2.jpeg')}}">
                                                     <a href="https://www.youtube.com/watch?v=RZ96K09l0b4&t=8s" class="play-btn video-popup"><i
                                                             class="fa fa-play"></i></a>
                                                 </div>
-                                                <div class="work__item small__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/work-3.jpg')}}">
+                                                <div class="work__item small__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/3.jpeg')}}">
                                                     <a href="https://www.youtube.com/watch?v=zXhu1uIy1Po" class="play-btn video-popup"><i
                                                             class="fa fa-play"></i></a>
                                                 </div>
-                                                <div class="work__item large__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/work-4.jpg')}}">
+                                                <div class="work__item large__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/4.jpeg')}}">
                                                     <a href="https://www.youtube.com/watch?v=4TszsPROJws&t=16s" class="play-btn video-popup"><i
                                                             class="fa fa-play"></i></a>
-                                                    <div class="work__item__hover">
+                                                    {{--<div class="work__item__hover">
                                                         <h4>PUBLICIDAD JUAN DIABLO</h4>
                                                         <ul>
                                                             <li>Video</li>
                                                             <li>Posproduccion</li>
                                                         </ul>
-                                                    </div>
+                                                    </div>--}}
                                                 </div>
-                                                <div class="work__item small__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/work-5.png')}}">
+                                                <div class="work__item small__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/5.jpeg')}}">
                                                     <a href="https://www.youtube.com/watch?v=kkqCl3i_8L0" class="play-btn video-popup"><i
                                                             class="fa fa-play"></i></a>
                                                 </div>
-                                                <div class="work__item small__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/work-6.jpg')}}">
+                                                <div class="work__item small__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/6.jpeg')}}">
                                                     <a href="https://www.youtube.com/watch?v=7iAiCpD0o34&t=45s" class="play-btn video-popup"><i
                                                             class="fa fa-play"></i></a>
                                                 </div>
-                                                <div class="work__item wide__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/work-7.png')}}">
+                                                <div class="work__item wide__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/7.jpeg')}}">
                                                     <a href="https://www.youtube.com/watch?v=94-6i6fu5Bs" class="play-btn video-popup"><i
                                                             class="fa fa-play"></i></a>
-                                                    <div class="work__item__hover">
+                                                    {{--<div class="work__item__hover">
                                                         <h4>GRABACION ELECTRONICO</h4>
                                                         <ul>
                                                             <li>Video</li>
                                                             <li>Musica</li>
                                                         </ul>
-                                                    </div>
+                                                    </div>--}}
                                                 </div>
                                             </div>
 
