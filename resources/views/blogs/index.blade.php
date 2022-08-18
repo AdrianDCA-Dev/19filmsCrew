@@ -162,66 +162,44 @@
                             <a href="https://www.youtube.com/channel/UCl4DvocRICG9bP6OqFgQ_SQ" class="google"><i class="fa fa-youtube-play" aria-hidden="true"></i><span class="counter">140</span><span>Suscribir</span></a>
                         </div>
 
-                      {{--  <!-- ***** Single Widget ***** -->
+                        <!-- ***** Single Widget ***** -->
                         <div class="single-widget latest-video-widget mb-50">
                             <!-- Section Heading -->
                             <div class="section-heading style-2 mb-30">
-                                <h4>Videos más recientes</h4>
+                                <h4>INSTAGRAM</h4>
                                 <div class="line"></div>
                             </div>
 
                             <!-- Single Blog Post -->
                             <div class="single-blog-post d-flex">
-                                <div class="post-thumbnail">
-                                    <img src="img/bg-img/1.jpg" alt="">
-                                </div>
-                                <div class="post-content">
-                                    <a href="single-post.html" class="post-title">DC Shoes: gymkhana five; the making of</a>
-                                    <div class="post-meta d-flex justify-content-between">
-                                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 29</a>
-                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 08</a>
-                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 23</a>
-                                    </div>
-                                </div>
+                                <!-- SnapWidget -->
+                                <script src="https://snapwidget.com/js/snapwidget.js"></script>
+                                <iframe src="https://snapwidget.com/embed/1007386" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; border-radius:5px; width:100%; height:600px"></iframe>
+                            </div>
+
+
+                        </div>
+
+                        <div class="single-widget latest-video-widget mb-50">
+                            <!-- Section Heading -->
+                            <div class="section-heading style-2 mb-30">
+                                <h4>YOUTUBE</h4>
+                                <div class="line"></div>
                             </div>
 
                             <!-- Single Blog Post -->
                             <div class="single-blog-post d-flex">
-                                <div class="post-thumbnail">
-                                    <img src="img/bg-img/2.jpg" alt="">
-                                </div>
-                                <div class="post-content">
-                                    <a href="single-post.html" class="post-title">Sweet Yummy Chocolatea Tea</a>
-                                    <div class="post-meta d-flex justify-content-between">
-                                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 17</a>
-                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 33</a>
-                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 26</a>
-                                    </div>
-                                </div>
+                                <!-- SnapWidget -->
+                                <script src="https://snapwidget.com/js/snapwidget.js"></script>
+                                <link rel="stylesheet" href="https://snapwidget.com/stylesheets/snapwidget-lightbox.css" />
+                                <script src="https://snapwidget.com/js/snapwidget-lightbox.js"></script>
+                                <iframe src="https://snapwidget.com/embed/1007387" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
                             </div>
 
-                            <!-- Single Blog Post -->
-                            <div class="single-blog-post d-flex">
-                                <div class="post-thumbnail">
-                                    <img src="img/bg-img/35.jpg" alt="">
-                                </div>
-                                <div class="post-content">
-                                    <a href="single-post.html" class="post-title">How To Make Orange Chicken Recipe?</a>
-                                    <div class="post-meta d-flex justify-content-between">
-                                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 11</a>
-                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 42</a>
-                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 21</a>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
 
-                        <!-- ***** Single Widget ***** -->
-                        <div class="single-widget add-widget mb-50">
-                            <a href="#"><img src="img/bg-img/add.png" alt=""></a>
-                        </div>
-
-                        <!-- ***** Sidebar Widget ***** -->
+                        {{--<!-- ***** Sidebar Widget ***** -->
                         <div class="single-widget youtube-channel-widget mb-50">
                             <!-- Section Heading -->
                             <div class="section-heading style-2 mb-30">

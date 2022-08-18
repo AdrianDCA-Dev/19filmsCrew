@@ -109,11 +109,10 @@
     </header>
 
     <div class="social-list social-list-bottom boxed">
-        <a href="#" class="icon ion-social-twitter"></a>
-        <a href="#" class="icon ion-social-facebook"></a>
-        <a href="#" class="icon ion-social-googleplus"></a>
-        <a href="#" class="icon ion-social-linkedin"></a>
-        <a href="#" class="icon ion-social-dribbble-outline"></a>
+        <a href="https://www.facebook.com/19filmsbolivia" class="icon ion-social-facebook"></a>
+        <a href="https://www.youtube.com/channel/UCl4DvocRICG9bP6OqFgQ_SQ" class="icon ion-social-youtube"></a>
+        <a href="https://www.instagram.com/19filmscrew/" class="icon ion-social-instagram"></a>
+        <a href="https://vimeo.com/cristianjuradodf" class="icon ion-social-vimeo"></a>
     </div>
     <!--<div class="sis">
      <ul class="mio">
@@ -848,7 +847,7 @@
                                                      </div>
                                                     </div>-->
 
-                                                    <a href="https://www.youtube.com/watch?v=kkqCl3i_8L0" class="play-btn video-popup">
+                                                    <a href="https://www.youtube.com/watch?v=RZ96K09l0b4&t=8s" class="play-btn video-popup">
                                                         <i class="fa fa-play"></i>
                                                     </a>
                                                     <div class="work__item__hover">
@@ -860,15 +859,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="work__item small__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/work-2.jpg')}}">
-                                                    <a href="https://www.youtube.com/watch?v=qf2z2vpVrnQ" class="play-btn video-popup"><i
+                                                    <a href="https://www.youtube.com/watch?v=RZ96K09l0b4&t=8s" class="play-btn video-popup"><i
                                                             class="fa fa-play"></i></a>
                                                 </div>
                                                 <div class="work__item small__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/work-3.jpg')}}">
-                                                    <a href="https://www.youtube.com/watch?v=RZ96K09l0b4" class="play-btn video-popup"><i
+                                                    <a href="https://www.youtube.com/watch?v=zXhu1uIy1Po" class="play-btn video-popup"><i
                                                             class="fa fa-play"></i></a>
                                                 </div>
                                                 <div class="work__item large__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/work-4.jpg')}}">
-                                                    <a href="https://www.youtube.com/watch?v=4TszsPROJws" class="play-btn video-popup"><i
+                                                    <a href="https://www.youtube.com/watch?v=4TszsPROJws&t=16s" class="play-btn video-popup"><i
                                                             class="fa fa-play"></i></a>
                                                     <div class="work__item__hover">
                                                         <h4>PUBLICIDAD JUAN DIABLO</h4>
@@ -879,15 +878,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="work__item small__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/work-5.png')}}">
-                                                    <a href="https://www.youtube.com/watch?v=zXhu1uIy1Po" class="play-btn video-popup"><i
+                                                    <a href="https://www.youtube.com/watch?v=kkqCl3i_8L0" class="play-btn video-popup"><i
                                                             class="fa fa-play"></i></a>
                                                 </div>
                                                 <div class="work__item small__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/work-6.jpg')}}">
-                                                    <a href="https://www.youtube.com/watch?v=zXhu1uIy1Po" class="play-btn video-popup"><i
+                                                    <a href="https://www.youtube.com/watch?v=7iAiCpD0o34&t=45s" class="play-btn video-popup"><i
                                                             class="fa fa-play"></i></a>
                                                 </div>
                                                 <div class="work__item wide__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/work-7.png')}}">
-                                                    <a href="https://www.youtube.com/watch?v=kkqCl3i_8L0" class="play-btn video-popup"><i
+                                                    <a href="https://www.youtube.com/watch?v=94-6i6fu5Bs" class="play-btn video-popup"><i
                                                             class="fa fa-play"></i></a>
                                                     <div class="work__item__hover">
                                                         <h4>GRABACION ELECTRONICO</h4>
