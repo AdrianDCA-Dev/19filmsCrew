@@ -8,7 +8,7 @@ use App\Http\Controllers\Panel\CategoryController;
 use App\Http\Controllers\Panel\PostController;
 use App\Http\Controllers\Panel\ProfileController;
 use App\Http\Controllers\Panel\UserController;
-
+use App\Http\Controllers\inicioController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,7 +21,7 @@ use App\Http\Controllers\Panel\UserController;
 */
 
 /* Route::get('/', function () {
-    return view('welcome');
+    return view('welcomeController');
 }); */
 
 Route::get('/dashboard', function () {
@@ -31,9 +31,7 @@ Route::get('/dashboard', function () {
 require __DIR__ . '/auth.php';
 
 /* pagina principal */
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [inicioController::class, 'index']);
 Route::get('/blog', [BlogController::class, 'index'])->name('blog.index');
 Route::get('/category/{category}', [BlogController::class, 'category'])->name('blog.category');
 Route::get('/tag/{tag}', [BlogController::class, 'tag'])->name('blog.tag');

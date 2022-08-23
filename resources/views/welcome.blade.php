@@ -34,6 +34,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="{{asset('assets/assets/assets/css/fontawesome.css')}}" rel="stylesheet" media="screen">
 
+    <link rel="stylesheet" href="{{asset('assets/assetsblog/style.css')}}">
+
     <link rel="stylesheet" href="{{asset('assets/assetsvideo/css/style.css')}}" type="text/css">
     <!--//-->
     <link href="{{asset('assets/assets/assets/css/style.css')}}" rel="stylesheet" media="screen">
@@ -52,7 +54,7 @@
             <li data-menuanchor="page1">
                 <a href="#page1">INICIO</a>
             </li>
-            <li data-menuanchor="page2">
+            <li>
                 <a href="{{ url('blog') }}">BLOG</a>
             </li>
             <li data-menuanchor="page2">
@@ -61,17 +63,17 @@
             <li data-menuanchor="page3">
                 <a href="#page3">RESUMEN</a>
             </li>
-            <li data-menuanchor="page4">
+         {{--   <li data-menuanchor="page4">
                 <a href="#page4">CLIENTES</a>
-            </li>
+            </li>--}}
             <li data-menuanchor="page5">
-                <a href="#page5">PORTAFOLIO</a>
+                <a href="#page4">PORTAFOLIO</a>
             </li>
             <!-- <li data-menuanchor="page6">
               <a href="#page6">EQUIPO</a>
              </li>-->
             <li data-menuanchor="page7">
-                <a href="#page7">CONTACTO</a>
+                <a href="#page5">CONTACTO</a>
             </li>
         </ul>
         <div class="menu-footer right-boxed">
@@ -127,40 +129,46 @@
     <div class="pagepiling">
         <div data-anchor="page1" class="pp-scrollable text-white section section-1">
             <div class="scroll-wrap">
+{{--
                 <div class="section-bg" style="background-image:url({{asset('assets/images/bg/inicio.jpg')}});"></div>
-                <div class="scrollable-content">
-                    <div class="vertical-centred">
-                        <div class="boxed boxed-inner">
-                            <div class="boxed">
-                                <div class="container">
-                                    <div class="intro">
-                                        <div class="row">
-                                            <div class="col-md-8 col-lg-6">
-                                                <br>
-                                                <br>
-                                                <br>
-                                                <br>
-                                                <div class="col-md-6 intros text-end">
-                                                    <div class="video-box">
-                                                        <a href="https://www.youtube.com/watch?v=kkqCl3i_8L0" class="glightbox position-absolute top-50 start-50 translate-middle">
-                                                             <span>
-                                                               <i class="fas fa-play-circle"></i>
-                                                             </span>
-                                                            <span class="border-animation border-animation border-1"></span>
-                                                            <span class="border-animation border-animation border-2"></span>
-                                                        </a>
-                                                    </div>
-                                                </div>
+--}}
+                <div class="section-bg">
+                    <div class="row">
+                        <div class="featured-post-slides owl-carousel">
+                            <!-- Single Feature Post -->
 
+                            @foreach ($posts_likes as $post)
 
-                                            </div>
-                                        </div>
+                                <div class="single-feature-post video-post bg-img" style="background-image: url(@if ($post->image)
+                                {{ Storage::url($post->image) }}
+                                @else https://cdn.pixabay.com/photo/2022/04/21/19/47/lion-7148207_960_720.jpg
+                                @endif);">
+                                    <!-- Play Button -->
+                                    <a href="video-post.html" class="btn play-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+
+                                    <!-- Post Content -->
+                                    <div class="post-content">
+                                        @foreach ($post->tags as $tag)
+                                            <a href="{{ route('blog.tag', $tag) }}" class="post-cata">
+                                                {{ $tag->name }}
+                                            </a>
+                                        @endforeach
+                                        <a href="{{ route('blog.show', $post->slug) }}" class="post-title">{{ $post->title }}</a>
+
                                     </div>
+
+                                    <!-- Video Duration -->
+                                    <span class="video-duration">05.03</span>
                                 </div>
-                            </div>
+
+
+                            @endforeach
+
+
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
 
@@ -814,7 +822,7 @@
                 </div>
             </div>
         </div>--}}
-        <div data-anchor="page5" class="pp-scrollable text-white section section-5">
+        <div data-anchor="page4" class="pp-scrollable text-white section section-5">
             <div class="scroll-wrap">
                 <!-- <div class="bg-changer">
                   <div class="section-bg" style="background-image:url(images/bg/textura.png);"></div>
@@ -909,7 +917,7 @@
                 </div>
             </div>
         </div>
-        <div data-anchor="page7" class="pp-scrollable section section-7">
+        <div data-anchor="page5" class="pp-scrollable section section-7">
             <div class="scroll-wrap">
                 <div class="section-bg" style="background-image:url({{asset('assets/images/bg/contact.jpg')}});"></div>
                 <div class="scrollable-content">
@@ -982,6 +990,7 @@
 <script type="text/javascript">
     const lightbox = GLightbox({
         touchNavigation: true,
+        startAt: 0,
         elements: [
             {
                 'href': 'https://youtu.be/GBu_CyiOHVk',
@@ -1037,6 +1046,11 @@
 <script src="{{asset('assets/assetsvideo/js/main.js')}}"></script>
 <!--//-->
 <script src="{{asset('assets/assets/assets/js/bootstrap.bundle.min.js')}}"></script>
+
+<!-- All Plugins js -->
+<script src="{{asset('assets/assetsblog/js/plugins/plugins.js')}}"></script>
+<!-- Active js -->
+<script src="{{asset('assets/assetsblog/js/active.js')}}"></script>
 
 <script src="{{asset('assets/js/scripts.js')}}"></script>
 
