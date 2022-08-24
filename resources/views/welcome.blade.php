@@ -183,351 +183,6 @@
             </div>
         </div>
 
-
-        {{--
-
-                <div data-anchor="page1" class="pp-scrollable text-white section section-1">
-                    <div class="scroll-wrap">
-                        <!--<div class="section-bg" style="background-image:url(images/bg/textura.png);"></div>-->
-                        <div class="section-bg hero--area">
-                            <div class="row no-gutters">
-                                <div class="col-12 col-md-8 col-lg-9">
-                                    <div class="tab-content">
-                                        <div class="tab-pane fade show active" id="post-1" role="tabpanel" aria-labelledby="post-1-tab">
-                                            <div class="intro">
-
-                                                <div class="intros text-end">
-                                                    <div class="video-box">
-                                                        <div class="single-feature-post video-post bg-img" style="background-image: url(images/bg/main.png);">
-                                                            <a href="https://www.youtube.com/watch?v=kkqCl3i_8L0" class="glightbox position-absolute top-50 start-50 translate-middle">
-                       <span>
-                         <i class="fas fa-play-circle"></i>
-                       </span>
-                                                                <span class="border-animation border-animation--border-1"></span>
-                                                                <span class="border-animation border-animation--border-2"></span>
-                                                            </a>
-                                                            <span class="video-duration">05.03</span>
-                                                        </div>
-
-
-                                                    </div>
-                                                </div>
-
-
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane fade" id="post-2" role="tabpanel" aria-labelledby="post-2-tab">
-                                            <div class="intro">
-                                                <div class="intros text-end">
-                                                    <div class="video-box">
-                                                        <!-- Single Feature Post -->
-                                                        <div class="single-feature-post video-post bg-img" style="background-image: url(assetsinicio/img/bg-img/8.jpg);">
-                                                            <!-- Play Button -->
-                                                            <a href="https://www.youtube.com/watch?v=7iAiCpD0o34&t=1s" class="glightbox position-absolute top-50 start-50 translate-middle">
-                       <span>
-                         <i class="fas fa-play-circle"></i>
-                       </span>
-                                                                <span class="border-animation border-animation--border-1"></span>
-                                                                <span class="border-animation border-animation--border-2"></span>
-                                                            </a>
-                                                            <span class="video-duration">05.03</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane fade" id="post-3" role="tabpanel" aria-labelledby="post-3-tab">
-
-                                            <div class="intro">
-                                                <div class="intros text-end">
-                                                    <div class="video-box">
-                                                        <!-- Single Feature Post -->
-                                                        <div class="single-feature-post video-post bg-img" style="background-image: url(assetsinicio/img/bg-img/9.jpg);">
-                                                            <!-- Play Button -->
-                                                            <a href="https://www.youtube.com/watch?v=kkqCl3i_8L0" class="glightbox position-absolute top-50 start-50 translate-middle">
-                       <span>
-                         <i class="fas fa-play-circle"></i>
-                       </span>
-                                                                <span class="border-animation border-animation--border-1"></span>
-                                                                <span class="border-animation border-animation--border-2"></span>
-                                                            </a>
-                                                            <span class="video-duration">05.03</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="tab-pane fade" id="post-4" role="tabpanel" aria-labelledby="post-4-tab">
-
-                                            <div class="intro">
-                                                <div class="intros text-end">
-                                                    <div class="video-box">
-                                                        <!-- Single Feature Post -->
-                                                        <div class="single-feature-post video-post bg-img" style="background-image: url(assetsinicio/img/bg-img/10.jpg);">
-                                                            <!-- Play Button -->
-                                                            <a href="https://www.youtube.com/watch?v=4TszsPROJws&t=5s" class="glightbox position-absolute top-50 start-50 translate-middle">
-                       <span>
-                         <i class="fas fa-play-circle"></i>
-                       </span>
-                                                                <span class="border-animation border-animation--border-1"></span>
-                                                                <span class="border-animation border-animation--border-2"></span>
-                                                            </a>
-                                                            <span class="video-duration">05.03</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane fade" id="post-5" role="tabpanel" aria-labelledby="post-5-tab">
-
-                                            <div class="intro">
-                                                <div class="intros text-end">
-                                                    <div class="video-box">
-                                                        <!-- Single Feature Post -->
-                                                        <div class="single-feature-post video-post bg-img" style="background-image: url(assetsinicio/img/bg-img/7.jpg);">
-                                                            <!-- Play Button -->
-                                                            <a href="https://www.youtube.com/watch?v=zXhu1uIy1Po" class="glightbox position-absolute top-50 start-50 translate-middle">
-                       <span>
-                         <i class="fas fa-play-circle"></i>
-                       </span>
-                                                                <span class="border-animation border-animation--border-1"></span>
-                                                                <span class="border-animation border-animation--border-2"></span>
-                                                            </a>
-                                                            <span class="video-duration">05.03</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="tab-pane fade" id="post-6" role="tabpanel" aria-labelledby="post-6-tab">
-
-                                            <div class="intro">
-                                                <div class="intros text-end">
-                                                    <div class="video-box">
-                                                        <!-- Single Feature Post -->
-                                                        <div class="single-feature-post video-post bg-img" style="background-image: url(assetsinicio/img/bg-img/10.jpg);">
-                                                            <!-- Play Button -->
-                                                            <a href="https://www.youtube.com/watch?v=kkqCl3i_8L0" class="glightbox position-absolute top-50 start-50 translate-middle">
-                       <span>
-                         <i class="fas fa-play-circle"></i>
-                       </span>
-                                                                <span class="border-animation border-animation--border-1"></span>
-                                                                <span class="border-animation border-animation--border-2"></span>
-                                                            </a>
-                                                            <span class="video-duration">05.03</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="tab-pane fade" id="post-7" role="tabpanel" aria-labelledby="post-7-tab">
-
-                                            <div class="intro">
-                                                <div class="intros text-end">
-                                                    <div class="video-box">
-                                                        <!-- Single Feature Post -->
-                                                        <div class="single-feature-post video-post bg-img" style="background-image: url(assetsinicio/img/bg-img/7.jpg);">
-                                                            <!-- Play Button -->
-                                                            <a href="https://www.youtube.com/watch?v=qf2z2vpVrnQ" class="glightbox position-absolute top-50 start-50 translate-middle">
-                       <span>
-                         <i class="fas fa-play-circle"></i>
-                       </span>
-                                                                <span class="border-animation border-animation--border-1"></span>
-                                                                <span class="border-animation border-animation--border-2"></span>
-                                                            </a>
-                                                            <span class="video-duration">05.03</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-12 col-md-4 col-lg-3">
-                                    <ul class="nav vizew-nav-tab" role="tablist">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" id="post-1-tab" data-toggle="pill" href="#post-1" role="tab" aria-controls="post-1" aria-selected="true">
-                                                <!-- Single Blog Post -->
-                                                <div class="single-blog-post style-2 d-flex align-items-center">
-                                                    <div class="post-thumbnail">
-                                                        <img src="assetsinicio/img/bg-img/3.jpg" alt="">
-                                                    </div>
-                                                    <div class="post-content">
-                                                        <h6 class="post-title">Teaser Alquimia</h6>
-                                                        <div class="post-meta d-flex justify-content-between">
-                                                            <span><i class="fa fa-comments" aria-hidden="true"></i> 25</span>
-                                                            <span><i class="fa fa-eye" aria-hidden="true"></i> 11</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a class="nav-link" id="post-2-tab" data-toggle="pill" href="#post-2" role="tab" aria-controls="post-2" aria-selected="false">
-                                                <!-- Single Blog Post -->
-                                                <div class="single-blog-post style-2 d-flex align-items-center">
-                                                    <div class="post-thumbnail">
-                                                        <img src="assetsinicio/img/bg-img/4.jpg" alt="">
-                                                    </div>
-                                                    <div class="post-content">
-                                                        <h6 class="post-title">Burbushhh SPOT 2021 4K</h6>
-                                                        <div class="post-meta d-flex justify-content-between">
-                                                            <span><i class="fa fa-comments" aria-hidden="true"></i> 14</span>
-                                                            <span><i class="fa fa-eye" aria-hidden="true"></i> 34</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a class="nav-link" id="post-3-tab" data-toggle="pill" href="#post-3" role="tab" aria-controls="post-3" aria-selected="false">
-                                                <!-- Single Blog Post -->
-                                                <div class="single-blog-post style-2 d-flex align-items-center">
-                                                    <div class="post-thumbnail">
-                                                        <img src="assetsinicio/img/bg-img/5.jpg" alt="">
-                                                    </div>
-                                                    <div class="post-content">
-                                                        <h6 class="post-title">ALQUIMIA by Luis Yeske 2022</h6>
-                                                        <div class="post-meta d-flex justify-content-between">
-                                                            <span><i class="fa fa-comments" aria-hidden="true"></i> 14</span>
-                                                            <span><i class="fa fa-eye" aria-hidden="true"></i> 34</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a class="nav-link" id="post-4-tab" data-toggle="pill" href="#post-4" role="tab" aria-controls="post-4" aria-selected="false">
-                                                <!-- Single Blog Post -->
-                                                <div class="single-blog-post style-2 d-flex align-items-center">
-                                                    <div class="post-thumbnail">
-                                                        <img src="assetsinicio/img/bg-img/6.jpg" alt="">
-                                                    </div>
-                                                    <div class="post-content">
-                                                        <h6 class="post-title">LOS MUSIKEROS DE TARIJA - LA TOXICA</h6>
-                                                        <div class="post-meta d-flex justify-content-between">
-                                                            <span><i class="fa fa-comments" aria-hidden="true"></i> 24</span>
-                                                            <span><i class="fa fa-eye" aria-hidden="true"></i> 98</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a class="nav-link" id="post-5-tab" data-toggle="pill" href="#post-5" role="tab" aria-controls="post-5" aria-selected="false">
-                                                <!-- Single Blog Post -->
-                                                <div class="single-blog-post style-2 d-flex align-items-center">
-                                                    <div class="post-thumbnail">
-                                                        <img src="assetsinicio/img/bg-img/4.jpg" alt="">
-                                                    </div>
-                                                    <div class="post-content">
-                                                        <h6 class="post-title">Teaser ARMY 4K</h6>
-                                                        <div class="post-meta d-flex justify-content-between">
-                                                            <span><i class="fa fa-comments" aria-hidden="true"></i> 14</span>
-                                                            <span><i class="fa fa-eye" aria-hidden="true"></i> 34</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a class="nav-link" id="post-6-tab" data-toggle="pill" href="#post-6" role="tab" aria-controls="post-6" aria-selected="false">
-                                                <!-- Single Blog Post -->
-                                                <div class="single-blog-post style-2 d-flex align-items-center">
-                                                    <div class="post-thumbnail">
-                                                        <img src="assetsinicio/img/bg-img/6.jpg" alt="">
-                                                    </div>
-                                                    <div class="post-content">
-                                                        <h6 class="post-title">Mega Fashion Night 2021</h6>
-                                                        <div class="post-meta d-flex justify-content-between">
-                                                            <span><i class="fa fa-comments" aria-hidden="true"></i> 24</span>
-                                                            <span><i class="fa fa-eye" aria-hidden="true"></i> 98</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a class="nav-link" id="post-7-tab" data-toggle="pill" href="#post-7" role="tab" aria-controls="post-7" aria-selected="false">
-                                                <!-- Single Blog Post -->
-                                                <div class="single-blog-post style-2 d-flex align-items-center">
-                                                    <div class="post-thumbnail">
-                                                        <img src="assetsinicio/img/bg-img/4.jpg" alt="">
-                                                    </div>
-                                                    <div class="post-content">
-                                                        <h6 class="post-title">LOS MUSIKEROS DE TARIJA - LA TOXICA</h6>
-                                                        <div class="post-meta d-flex justify-content-between">
-                                                            <span><i class="fa fa-comments" aria-hidden="true"></i> 24</span>
-                                                            <span><i class="fa fa-eye" aria-hidden="true"></i> 98</span>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                            </a>
-                                        </li>
-
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="scrollable-content">
-                            <div class="vertical-centred">
-                                <div class="boxed boxed-inner">
-                                    <div class="vertical-title d-none d-lg-block"><span>Bienvenido</span></div>
-                                    <!-- <div class="boxed">
-
-                                      <div class="container">
-                                       <div class="intro">
-                                        <div class="row">
-                                         <div class="col-md-8 col-lg-6">
-                                          <p class="subtitle-top">Bienvenido<br>Cinema Studio</p>
-                                          <h1 class="display-2 text-white"><span class="text-primary">Hola</span> Somos<br> 19Films</h1>
-                                          &lt;!&ndash;<a href="https://www.youtube.com/watch?v=kkqCl3i_8L0" class="popup-youtube icon ion-ios-play"></a>&ndash;&gt;
-                                          <br>
-                                          <br>
-                                          <br>
-                                          <br>
-                                          <div class="col-md-6 intros text-end">
-                                           <div class="video-box">
-
-                                            <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
-                                           <span>
-                                             <i class="fas fa-play-circle"></i>
-                                           </span>
-                                             <span class="border-animation border-animation&#45;&#45;border-1"></span>
-                                             <span class="border-animation border-animation&#45;&#45;border-2"></span>
-                                            </a>
-                                           </div>
-                                          </div>
-
-
-                                         </div>
-                                        </div>
-                                       </div>
-                                      </div>
-                                     </div>-->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-        --}}
-
-
         <div data-anchor="page2" class="pp-scrollable section section-2">
             <div class="scroll-wrap">
                 <div class="section-bg" >
@@ -776,63 +431,6 @@
                 </div>
             </div>
         </div>
-       {{-- <div data-anchor="page4" class="pp-scrollable section section-4">
-            <div class="scroll-wrap">
-                <!-- <div class="section-bg" style="background-image:url(images/bg/textura.png);"></div>-->
-                <div class="scrollable-content">
-                    <div class="vertical-centred">
-                        <div class="boxed boxed-inner">
-                            <div class="vertical-title text-white d-none d-lg-block"><span>CLIENTES</span></div>
-                            <div class="boxed">
-                                <div class="container">
-                                    <div class="intro">
-                                        <h2 class="title-uppercase text-white">CONFIANZA DE LOS CLIENTES</h2>
-                                        <div class="row row-partners">
-                                            <div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-                                                <div class="partner-inner"><img alt="" src="{{asset('assets/images/partners/1.png')}}"></div>
-                                            </div>
-                                            <div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-                                                <div class="partner-inner"><img alt="" src="{{asset('assets/images/partners/2.png')}}"></div>
-                                            </div>
-                                            <div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-                                                <div class="partner-inner"><img alt="" src="{{asset('assets/images/partners/3.png')}}"></div>
-                                            </div>
-                                            <div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-                                                <div class="partner-inner"><img alt="" src="{{asset('assets/images/partners/4.png')}}"></div>
-                                            </div>
-                                            <div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-                                                <div class="partner-inner"><img alt="" src="{{asset('assets/images/partners/5.png')}}"></div>
-                                            </div>
-                                            <div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-                                                <div class="partner-inner"><img alt="" src="{{asset('assets/images/partners/6.png')}}"></div>
-                                            </div>
-                                            <div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-                                                <div class="partner-inner"><img alt="" src="{{asset('assets/images/partners/7.png')}}"></div>
-                                            </div>
-                                            <div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-                                                <div class="partner-inner"><img alt="" src="{{asset('assets/images/partners/8.png')}}"></div>
-                                            </div>
-                                            <div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-                                                <div class="partner-inner"><img alt="" src="{{asset('assets/images/partners/9.png')}}"></div>
-                                            </div>
-                                            <div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-                                                <div class="partner-inner"><img alt="" src="{{asset('assets/images/partners/10.png')}}"></div>
-                                            </div>
-                                            <div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-                                                <div class="partner-inner"><img alt="" src="{{asset('assets/images/partners/11.png')}}"></div>
-                                            </div>
-                                            <div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-                                                <div class="partner-inner"><img alt="" src="{{asset('assets/images/partners/12.png')}}"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>--}}
         <div data-anchor="page4" class="pp-scrollable text-white section section-5">
             <div class="scroll-wrap">
                 <!-- <div class="bg-changer">
@@ -866,7 +464,7 @@
                                                      </div>
                                                     </div>-->
 
-                                                    <a href="https://www.youtube.com/watch?v=RZ96K09l0b4&t=8s" class="play-btn video-popup">
+                                                    <a href="https://www.youtube.com/watch?v=94-6i6fu5Bs" class="play-btn video-popup">
                                                         <i class="fa fa-play"></i>
                                                     </a>
                                                     {{--<div class="work__item__hover">
@@ -878,15 +476,15 @@
                                                     </div>--}}
                                                 </div>
                                                 <div class="work__item small__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/2.jpeg')}}">
-                                                    <a href="https://www.youtube.com/watch?v=RZ96K09l0b4&t=8s" class="play-btn video-popup"><i
+                                                    <a href="https://www.youtube.com/watch?v=7iAiCpD0o34" class="play-btn video-popup"><i
                                                             class="fa fa-play"></i></a>
                                                 </div>
                                                 <div class="work__item small__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/3.jpeg')}}">
-                                                    <a href="https://www.youtube.com/watch?v=zXhu1uIy1Po" class="play-btn video-popup"><i
+                                                    <a href="https://www.youtube.com/watch?v=kkqCl3i_8L0" class="play-btn video-popup"><i
                                                             class="fa fa-play"></i></a>
                                                 </div>
                                                 <div class="work__item large__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/4.jpeg')}}">
-                                                    <a href="https://www.youtube.com/watch?v=4TszsPROJws&t=16s" class="play-btn video-popup"><i
+                                                    <a href="https://www.youtube.com/watch?v=zXhu1uIy1Po" class="play-btn video-popup"><i
                                                             class="fa fa-play"></i></a>
                                                     {{--<div class="work__item__hover">
                                                         <h4>PUBLICIDAD JUAN DIABLO</h4>
@@ -897,15 +495,15 @@
                                                     </div>--}}
                                                 </div>
                                                 <div class="work__item small__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/5.jpeg')}}">
-                                                    <a href="https://www.youtube.com/watch?v=kkqCl3i_8L0" class="play-btn video-popup"><i
+                                                    <a href="https://www.youtube.com/watch?v=zXhu1uIy1Po" class="play-btn video-popup"><i
                                                             class="fa fa-play"></i></a>
                                                 </div>
                                                 <div class="work__item small__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/6.jpeg')}}">
-                                                    <a href="https://www.youtube.com/watch?v=7iAiCpD0o34&t=45s" class="play-btn video-popup"><i
+                                                    <a href="https://www.youtube.com/watch?v=qf2z2vpVrnQ" class="play-btn video-popup"><i
                                                             class="fa fa-play"></i></a>
                                                 </div>
                                                 <div class="work__item wide__item set-bg" data-setbg="{{asset('assets/assetsvideo/img/work/7.jpeg')}}">
-                                                    <a href="https://www.youtube.com/watch?v=94-6i6fu5Bs" class="play-btn video-popup"><i
+                                                    <a href="https://www.youtube.com/watch?v=RZ96K09l0b4" class="play-btn video-popup"><i
                                                             class="fa fa-play"></i></a>
                                                     {{--<div class="work__item__hover">
                                                         <h4>GRABACION ELECTRONICO</h4>

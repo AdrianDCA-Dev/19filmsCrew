@@ -53,7 +53,7 @@
                 <nav class="classy-navbar justify-content-between" id="vizewNav">
 
                     <!-- Nav brand -->
-                    <a href="#" class="nav-brand"><img src="{{asset('assets/assetsblog/img/core-img/logoo.png')}}" alt=""></a>
+                    <a href="{{ url('/') }}" class="nav-brand"><img src="{{asset('assets/assetsblog/img/core-img/logoo.png')}}" alt=""></a>
 
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">
@@ -70,8 +70,7 @@
                         <!-- Nav Start -->
                         <div class="classynav">
                             <ul>
-                                <li class="active"><a href="/"
-                                   class="@if (route('blog.index') === url()->current()) @endif"
+                                <li class="active"><a href="{{route('blog.index')}}"
                                    aria-current="page">Inicio</a></li>
                                 @foreach ($categories as $category)
                                     <li><a href="{{ route('blog.category', $category) }}"
