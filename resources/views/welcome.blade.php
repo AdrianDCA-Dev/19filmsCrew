@@ -34,6 +34,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="{{asset('assets/assets/assets/css/fontawesome.css')}}" rel="stylesheet" media="screen">
 
+
+
     <link rel="stylesheet" href="{{asset('assets/assetsblog/style.css')}}">
 
     <link rel="stylesheet" href="{{asset('assets/assetsvideo/css/style.css')}}" type="text/css">
@@ -127,48 +129,57 @@
 
 
     <div class="pagepiling">
+
         <div data-anchor="page1" class="pp-scrollable text-white section section-1">
             <div class="scroll-wrap">
-{{--
-                <div class="section-bg" style="background-image:url({{asset('assets/images/bg/inicio.jpg')}});"></div>
+
+                <div class="section-bg" style="background-image:url({{asset('assets/images/bg/main.jpg')}});"></div>
+                <div class="scrollable-content">
+                    <div class="vertical-centred">
+                        <div class="boxed boxed-inner">
+
+                            <div class="boxed">
+                                <div class="container">
+                                    <div class="intro">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="featured-post-slides owl-carousel">
+                                                    <!-- Single Feature Post -->
+
+                                                    @foreach ($posts_likes as $post)
+
+                                                        <div class="single-feature-post video-post bg-img" style="background-image: url(@if ($post->image)
+                                                            {{ Storage::url($post->image) }}
+                                                            @else https://cdn.pixabay.com/photo/2022/04/21/19/47/lion-7148207_960_720.jpg
+                                                            @endif);">
+                                                            <!-- Play Button -->
+                                                            {{--<a href="video-post.html" class="btn play-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
 --}}
-                <div class="section-bg">
-                    <div class="row">
-                        <div class="featured-post-slides owl-carousel">
-                            <!-- Single Feature Post -->
+                                                            <!-- Post Content -->
+                                                            <div class="post-content">
+                                                                @foreach ($post->tags as $tag)
+                                                                    <a href="{{ route('blog.tag', $tag) }}" class="post-cata">
+                                                                        {{ $tag->name }}
+                                                                    </a>
+                                                                @endforeach
+                                                                <a href="{{ route('blog.show', $post->slug) }}" class="post-title">{{ $post->title }}</a>
 
-                            @foreach ($posts_likes as $post)
+                                                            </div>
+                                                        </div>
 
-                                <div class="single-feature-post video-post bg-img" style="background-image: url(@if ($post->image)
-                                {{ Storage::url($post->image) }}
-                                @else https://cdn.pixabay.com/photo/2022/04/21/19/47/lion-7148207_960_720.jpg
-                                @endif);">
-                                    <!-- Play Button -->
-                                    <a href="video-post.html" class="btn play-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
 
-                                    <!-- Post Content -->
-                                    <div class="post-content">
-                                        @foreach ($post->tags as $tag)
-                                            <a href="{{ route('blog.tag', $tag) }}" class="post-cata">
-                                                {{ $tag->name }}
-                                            </a>
-                                        @endforeach
-                                        <a href="{{ route('blog.show', $post->slug) }}" class="post-title">{{ $post->title }}</a>
+                                                    @endforeach
 
+
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-
-                                    <!-- Video Duration -->
-                                    <span class="video-duration">05.03</span>
                                 </div>
-
-
-                            @endforeach
-
-
+                            </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
 
@@ -930,9 +941,8 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <h2 class="title-uppercase"><span class="text-primary">TARIJA</span>,BOLIVIA</h2>
-                                                <h5 class="text-muted">Comunidad Equiz Sud, La Buena Tierra.</h5>
                                                 <section class="contact-address">
-                                                    <h3><span class="phone">Cel: 63076039</span></h3>
+                                                    <h3><span class="phone">Cel: +59171898453</span></h3>
                                                 </section>
                                             </div>
                                             <div class="col-md-6">
@@ -982,12 +992,9 @@
 <script src="{{asset('assets/js/owl.carousel.min.js')}}"></script>
 <script src="{{asset('assets/js/jquery.pagepiling.min.js')}}"></script>
 
-
-
-
 <script src="{{asset('assets/assets/assets/vendors/glightbox/js/glightbox.min.js')}}"></script>
 
-<script type="text/javascript">
+{{--<script type="text/javascript">
     const lightbox = GLightbox({
         touchNavigation: true,
         startAt: 0,
@@ -1026,7 +1033,7 @@
         autoplayVideos: true,
     });
     lightbox.open();
-</script>
+</script>--}}
 
 
 
@@ -1046,7 +1053,6 @@
 <script src="{{asset('assets/assetsvideo/js/main.js')}}"></script>
 <!--//-->
 <script src="{{asset('assets/assets/assets/js/bootstrap.bundle.min.js')}}"></script>
-
 <!-- All Plugins js -->
 <script src="{{asset('assets/assetsblog/js/plugins/plugins.js')}}"></script>
 <!-- Active js -->
