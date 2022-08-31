@@ -1,4 +1,9 @@
 <x-app-layout>
+    <meta property="og:url"                content="https://19filmscrew.com/post/{{ $post->slug }}" />
+    <meta property="og:type"               content="article" />
+    <meta property="og:title"              content="{{ $post->title }}" />
+    <meta property="og:description"        content="{!! $post->body !!}" />
+    <meta property="og:image"              content="{{ Storage::url($post->image) }}" />
     <section class="hero--area section-padding-80-0">
     </section>
     <section class="post-details-area mb-80">

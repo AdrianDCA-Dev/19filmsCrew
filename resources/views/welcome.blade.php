@@ -1,7 +1,5 @@
 <!DOCTYPE HTML>
 <html lang="en">
-
-<!-- robert/  03:29:43 GMT -->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -191,10 +189,10 @@
                             <a href="{{asset('assets/assetssomos/img/portfolio/portfolio-01-large.jpg')}}" data-lightbox="roadtrip" title="DESCRIPCION DE LA FOTO GORDITUU"><img src="{{asset('assets/assetssomos/img/portfolio/portfolio-01-thumbnail.jpg')}}" alt="" class="grayscale gallery__img"></a>
                         </div>
                         <div class="img gallery__item">
-                            <a href="{{asset('assets/assetssomos/img/portfolio/portfolio-02-large.png')}}" data-lightbox="roadtrip" title="DESCRIPCION DE LA FOTO GORDITUU"><img src="{{asset('assets/assetssomos/img/portfolio/portfolio-02-thumbnail.png')}}" alt="" class="grayscale gallery__img"></a>
+                            <a href="{{asset('assets/assetssomos/img/portfolio/portfolio-02-large.png')}}" data-lightbox="roadtrip" title="DESCRIPCION DE LA FOTO GORDITUU"><img src="{{asset('assets/assetssomos/img/portfolio/portfolio-02-thumbnail.jpg')}}" alt="" class="grayscale gallery__img"></a>
                         </div>
                         <div class="img gallery__item">
-                            <a href="{{asset('assets/assetssomos/img/portfolio/portfolio-03-large.png')}}" data-lightbox="roadtrip" title="DESCRIPCION DE LA FOTO GORDITUU"><img src="{{asset('assets/assetssomos/img/portfolio/portfolio-03-thumbnail.png')}}" alt="" class="grayscale gallery__img"></a>
+                            <a href="{{asset('assets/assetssomos/img/portfolio/portfolio-03-large.png')}}" data-lightbox="roadtrip" title="DESCRIPCION DE LA FOTO GORDITUU"><img src="{{asset('assets/assetssomos/img/portfolio/portfolio-03-thumbnail.jpg')}}" alt="" class="grayscale gallery__img"></a>
 
                         </div>
                         <div class="img gallery__item">
@@ -205,17 +203,17 @@
                             <a href="{{asset('assets/assetssomos/img/portfolio/portfolio-05-large.jpg')}}" data-lightbox="roadtrip" title="DESCRIPCION DE LA FOTO GORDITUU"><img src="{{asset('assets/assetssomos/img/portfolio/portfolio-05-thumbnail.jpg')}}" alt="" class="grayscale gallery__img"></a>
                         </div>
                         <div class="img gallery__item">
-                            <a href="{{asset('assets/assetssomos/img/portfolio/portfolio-06-large.png')}}" data-lightbox="roadtrip" title="DESCRIPCION DE LA FOTO GORDITUU"><img src="{{asset('assets/assetssomos/img/portfolio/portfolio-06-thumbnail.png')}}" alt="" class="grayscale gallery__img"></a>
+                            <a href="{{asset('assets/assetssomos/img/portfolio/portfolio-06-large.png')}}" data-lightbox="roadtrip" title="DESCRIPCION DE LA FOTO GORDITUU"><img src="{{asset('assets/assetssomos/img/portfolio/portfolio-06-thumbnail.jpg')}}" alt="" class="grayscale gallery__img"></a>
 
                         </div>
                         <div class="img gallery__item">
-                            <a href="{{asset('assets/assetssomos/img/portfolio/portfolio-07-large.png')}}" data-lightbox="roadtrip" title="DESCRIPCION DE LA FOTO GORDITUUm"><img src="{{asset('assets/assetssomos/img/portfolio/portfolio-07-thumbnail.png')}}" alt="" class="grayscale gallery__img"></a>
+                            <a href="{{asset('assets/assetssomos/img/portfolio/portfolio-07-large.png')}}" data-lightbox="roadtrip" title="DESCRIPCION DE LA FOTO GORDITUUm"><img src="{{asset('assets/assetssomos/img/portfolio/portfolio-07-thumbnail.jpg')}}" alt="" class="grayscale gallery__img"></a>
                         </div>
                         <div class="img gallery__item">
                             <a href="{{asset('assets/assetssomos/img/portfolio/portfolio-08-large.jpg')}}" data-lightbox="roadtrip" title="DESCRIPCION DE LA FOTO GORDITUU"><img src="{{asset('assets/assetssomos/img/portfolio/portfolio-08-thumbnail.jpg')}}" alt="" class="grayscale gallery__img"></a>
                         </div>
                         <div class="img gallery__item">
-                            <a href="{{asset('assets/assetssomos/img/portfolio/portfolio-09-large.png')}}" data-lightbox="roadtrip" title="DESCRIPCION DE LA FOTO GORDITUU"><img src="{{asset('assets/assetssomos/img/portfolio/portfolio-09-thumbnail.png')}}" alt="" class="grayscale gallery__img"></a>
+                            <a href="{{asset('assets/assetssomos/img/portfolio/portfolio-09-large.png')}}" data-lightbox="roadtrip" title="DESCRIPCION DE LA FOTO GORDITUU"><img src="{{asset('assets/assetssomos/img/portfolio/portfolio-09-thumbnail.jpg')}}" alt="" class="grayscale gallery__img"></a>
 
                         </div>
                     </div>
