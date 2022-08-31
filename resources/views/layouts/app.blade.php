@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+    <meta property="og:url"           content="@yield('url')" />
+    <meta property="og:type"          content="@yield('type')" />
+    <meta property="og:title"         content="@yield('ogtitle')" />
+    <meta property="og:description"   content="@yield('description')" />
+    <meta property="og:image"         content="@yield('image')" />
+
     <link rel="shortcut icon" href="{{asset('assets/favicon.png')}}">
     <link rel="apple-touch-icon" href="{{asset('assets/19films-icon.png')}}">
     <link rel="apple-touch-icon" sizes="72x72" href="{{asset('assets/19films-touch-icon-72x72.png')}}">
