@@ -23,6 +23,17 @@ use App\Http\Controllers\inicioController;
 /* Route::get('/', function () {
     return view('welcomeController');
 }); */
+Route::get('/inicio', function () {
+    return view('inicio.inicio');
+});
+
+Route::get('/quienes-somos', function () {
+    return view('inicio.somos');
+});
+Route::get('/contactanos', function () {
+    return view('inicio.contacto');
+});
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -30,8 +41,10 @@ Route::get('/dashboard', function () {
 
 require __DIR__ . '/auth.php';
 
+
 /* pagina principal */
 Route::get('/', [inicioController::class, 'index']);
+Route::get('/portafolio', [inicioController::class, 'indexportafolio']);
 Route::get('/blog', [BlogController::class, 'index'])->name('blog.index');
 Route::get('/category/{category}', [BlogController::class, 'category'])->name('blog.category');
 Route::get('/tag/{tag}', [BlogController::class, 'tag'])->name('blog.tag');
