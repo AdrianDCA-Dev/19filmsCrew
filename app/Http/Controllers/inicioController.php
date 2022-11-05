@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Post;
+use App\Models\Inicio;
 use Illuminate\Http\Request;
 
 class inicioController extends Controller
@@ -10,7 +11,7 @@ class inicioController extends Controller
     public function index()
     {
         $posts = Post::where('status', true)->orderBy('id', 'desc')->paginate(6);
-
+        $inicios = Inicio::all();
         $posts_likes = Post::select('id', 'title', 'image', 'slug')
             ->withCount('likes')
             ->orderBy('likes_count', 'desc')
@@ -23,7 +24,7 @@ class inicioController extends Controller
             $count++;
         }
 
-        return view('inicio.inicio', compact('posts', 'posts_likes'));
+        return view('inicio.inicio', compact('posts', 'posts_likes', 'inicios'));
     }
 
     public function indexportafolio()
@@ -43,5 +44,12 @@ class inicioController extends Controller
         }
 
         return view('inicio.portafolio', compact('posts', 'posts_likes'));
+    }
+
+    public function indexInicio()
+    {
+        $inicios = Inicio::all();
+
+        return view('inicio.inicio', compact('inicios'));
     }
 }

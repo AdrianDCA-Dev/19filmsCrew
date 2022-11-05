@@ -15,10 +15,11 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('panel.post.index')" :active="request()->routeIs('panel.post.*')">
-                        {{ __('Posts') }}
-                    </x-nav-link>
+
                     @if (auth()->user()->rol == 1)
+                        <x-nav-link :href="route('panel.post.index')" :active="request()->routeIs('panel.post.*')">
+                            {{ __('Posts') }}
+                        </x-nav-link>
                         <x-nav-link :href="route('panel.category.index')" :active="request()->routeIs('panel.category.*')">
                             {{ __('Categorias') }}
                         </x-nav-link>
@@ -27,6 +28,9 @@
                         </x-nav-link>
                         <x-nav-link :href="route('panel.user.index')" :active="request()->routeIs('panel.user.*')">
                             {{ __('Usuarios') }}
+                        </x-nav-link>
+                        <x-nav-link :href="route('panel.inicio.index')" :active="request()->routeIs('panel.inicio.*')">
+                            {{ __('Inicio') }}
                         </x-nav-link>
                     @endif
                 </div>

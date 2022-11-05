@@ -795,11 +795,7 @@
 <script src="{{asset('assets/welcome/glightbox/js/glightbox.js')}}"></script>
 
 <script>
-    const lightbox = GLightbox({
-        touchNavigation: true,
-        loop: true,
-        autoplayVideos: true
-    });
+
 </script>
 <script src="{{asset('assets/welcome/js/jquery.magnific-popup.min.js')}}"></script>
 <script src="{{asset('assets/welcome/js/jquery.animateNumber.min.js')}}"></script>

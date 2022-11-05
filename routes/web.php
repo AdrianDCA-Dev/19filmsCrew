@@ -9,6 +9,7 @@ use App\Http\Controllers\Panel\PostController;
 use App\Http\Controllers\Panel\ProfileController;
 use App\Http\Controllers\Panel\UserController;
 use App\Http\Controllers\inicioController;
+use App\Http\Controllers\Panel\IniciosController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -43,8 +44,8 @@ require __DIR__ . '/auth.php';
 
 
 /* pagina principal */
-Route::get('/', [inicioController::class, 'index']);
-Route::get('/portafolio', [inicioController::class, 'indexportafolio']);
+Route::get('/', [InicioController::class, 'index']);
+Route::get('/portafolio', [IniciosController::class, 'indexportafolio']);
 Route::get('/blog', [BlogController::class, 'index'])->name('blog.index');
 Route::get('/category/{category}', [BlogController::class, 'category'])->name('blog.category');
 Route::get('/tag/{tag}', [BlogController::class, 'tag'])->name('blog.tag');
@@ -54,6 +55,11 @@ Route::get('/post/{post}', [BlogController::class, 'show'])->name('blog.show');
 Route::get('/categories', [CategoryController::class, 'index'])->middleware(['auth'])->name('panel.category.index');
 Route::get('/categories/create', [CategoryController::class, 'create'])->middleware(['auth'])->name('panel.category.create');
 Route::get('/categories/{category}', [CategoryController::class, 'edit'])->middleware(['auth'])->name('panel.category.edit');
+
+/* categories */
+Route::get('/inicio', [IniciosController::class, 'index'])->middleware(['auth'])->name('panel.inicio.index');
+Route::get('/inicio/create', [IniciosController::class, 'create'])->middleware(['auth'])->name('panel.inicio.create');
+Route::get('/inicio/{inicio}', [IniciosController::class, 'edit'])->middleware(['auth'])->name('panel.inicio.edit');
 
 /* tags */
 Route::get('/tags', [TagController::class, 'index'])->middleware(['auth'])->name('panel.tag.index');
