@@ -56,7 +56,7 @@ Route::get('/categories', [CategoryController::class, 'index'])->middleware(['au
 Route::get('/categories/create', [CategoryController::class, 'create'])->middleware(['auth'])->name('panel.category.create');
 Route::get('/categories/{category}', [CategoryController::class, 'edit'])->middleware(['auth'])->name('panel.category.edit');
 
-/* categories */
+/* inicio */
 Route::get('/inicio', [IniciosController::class, 'index'])->middleware(['auth'])->name('panel.inicio.index');
 Route::get('/inicio/create', [IniciosController::class, 'create'])->middleware(['auth'])->name('panel.inicio.create');
 Route::get('/inicio/{inicio}', [IniciosController::class, 'edit'])->middleware(['auth'])->name('panel.inicio.edit');

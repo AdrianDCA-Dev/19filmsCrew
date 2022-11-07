@@ -21,7 +21,7 @@ class IniciosController extends Controller
 
     public function edit(Inicio $inicio)
     {
-        $this->authorize('update', $inicio);
+        //$this->authorize('update', $inicio);
         return view('panel.inicio.edit', compact('inicio'));
     }
 }
